@@ -6,6 +6,7 @@ body {
 
 textarea {
   background: transparent;
+  background-color: red;
   border: none;
   resize: none;
   color: #000000;
@@ -65,7 +66,16 @@ textarea {
   color: white;
 }
 
+.saveBtn i {
+    /* text-align: center; */
+  width: 100%;
+  /* height: ; */
+}
+
+
+
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+

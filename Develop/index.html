@@ -18,8 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
+    
   </head>
 
   <body>
@@ -30,9 +32,84 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!-- 8am time block -->
+        <div class ="row time-block">
+          <div class = "col hour"><time datetime="8:00">8:00AM</time></div>
+          <!-- Using textarea element to let user input and display text-->
+          <textarea class="col-10">Enter calendar event</textarea>
+          <button class="saveBtn col">
+            <!-- https://fontawesome.com/v4.7.0/icon/floppy-o -->
+            <i class="fa fa-save"></i>            
+          </button>
+       </div>
+      <div class ="row time-block">
+        <div class = "col hour">9am</div>
+        <textarea class="col-10">Enter calendar event</textarea>
+        <button class="saveBtn col">
+          <i class="fa fa-save center" aria-hidden="true"></i>            
+        </button>
+     </div>
+     <div class ="row time-block">
+      <div class = "col hour">10am</div>
+      <textarea class="col-10">Enter calendar event</textarea>
+      <button class="saveBtn col">
+        <i class="fa fa-save center" aria-hidden="true"></i>            
+      </button>
+   </div>
+   <div class ="row time-block">
+    <div class = "col hour">11am</div>
+    <textarea class="col-10">Enter calendar event</textarea>
+    <button class="saveBtn col">
+      <i class="fa fa-save center" aria-hidden="true"></i>            
+    </button>
+    </div>
+ <div class ="row time-block">
+  <div class = "col hour">12pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div>
+<div class ="row time-block">
+  <div class = "col hour">1pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div>
+<div class ="row time-block">
+  <div class = "col hour">2pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div>
+<div class ="row time-block">
+  <div class = "col hour">3pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div>
+<div class ="row time-block">
+  <div class = "col hour">4pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div><div class ="row time-block">
+  <div class = "col hour">5pm</div>
+  <textarea class="col-10">Enter calendar event</textarea>
+  <button class="saveBtn col">
+    <i class="fa fa-save center" aria-hidden="true"></i>            
+  </button>
+</div>
+
+       
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
